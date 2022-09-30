@@ -673,7 +673,7 @@
             "name": "[MARKDOWN] - Link Title",
             "scope": "string.other.link.title.markdown",
             "settings": {
-                "foreground": "#a5ff90"
+                "foreground": "#FF68B8"
             }
         },
         {
@@ -684,7 +684,7 @@
                 "string.other.link.description.title.markdown"
             ],
             "settings": {
-                "foreground": "#a5ff90"
+                "foreground": "#FF68B8"
             }
         },
         {

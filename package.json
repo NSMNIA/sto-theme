@@ -1,21 +1,26 @@
 {
-  "name": "sto-theme",
-  "displayName": "sto",
-  "description": "Dark theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.71.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Sto Theme",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Sto Theme-color-theme.json"
-      }
-    ]
-  }
+    "name": "sto-theme",
+    "displayName": "Sto Theme",
+    "description": "Dark theme",
+    "version": "0.0.1",
+    "publisher": "NSMNIA",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NSMNIA/sto-theme"
+    },
+    "engines": {
+        "vscode": "^1.71.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sto Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sto Theme-color-theme.json"
+            }
+        ]
+    }
 }

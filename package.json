@@ -2,7 +2,7 @@
     "name": "sto-theme",
     "displayName": "Sto Theme",
     "description": "Dark theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "NSMNIA",
     "repository": {
         "type": "git",
@@ -11,6 +11,14 @@
     "engines": {
         "vscode": "^1.71.0"
     },
+    "keywords": [
+        "themes",
+        "dark",
+        "sto",
+        "NSMNIA",
+        "theme",
+        "dark theme"
+    ],
     "categories": [
         "Themes"
     ],

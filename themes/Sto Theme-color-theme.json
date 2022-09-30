@@ -373,20 +373,6 @@
             }
         },
         {
-            "name": "Punctuation Parameters",
-            "scope": "punctuation.definition.parameters",
-            "settings": {
-                "foreground": "#ffee80"
-            }
-        },
-        {
-            "name": "Punctuation Template Expression",
-            "scope": "punctuation.definition.template-expression",
-            "settings": {
-                "foreground": "#ffee80"
-            }
-        },
-        {
             "name": "Storage",
             "scope": "storage",
             "settings": {
@@ -504,7 +490,7 @@
                 "source.stylus punctuation.definition.string"
             ],
             "settings": {
-                "foreground": "#ffc926"
+                "foreground": "#FF68B8"
             }
         },
         {

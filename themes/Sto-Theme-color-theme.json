@@ -20,7 +20,7 @@
             "italic": true
         },
         // This colours both object definiton properties, as well as references. If the property does not exist, it will be white\.
-        "property": "#FF68B8",
+        "property": "#FF68B8"
     },
     "colors": {
         // menu
@@ -296,10 +296,7 @@
     "tokenColors": [
         {
             "name": "Comment",
-            "scope": [
-                "comment",
-                "punctuation.definition.comment"
-            ],
+            "scope": ["comment", "punctuation.definition.comment"],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#888"
@@ -349,11 +346,7 @@
         },
         {
             "name": "Meta JSX",
-            "scope": [
-                "meta.jsx.children",
-                "meta.jsx.children.js",
-                "meta.jsx.children.tsx"
-            ],
+            "scope": ["meta.jsx.children", "meta.jsx.children.js", "meta.jsx.children.tsx"],
             "settings": {
                 "foreground": "#fff"
             }
@@ -388,20 +381,14 @@
         },
         {
             "name": "String",
-            "scope": [
-                "string",
-                "punctuation.definition.string"
-            ],
+            "scope": ["string", "punctuation.definition.string"],
             "settings": {
                 "foreground": "#dcdcff"
             }
         },
         {
             "name": "String Template",
-            "scope": [
-                "string.template",
-                "punctuation.definition.string.template"
-            ],
+            "scope": ["string.template", "punctuation.definition.string.template"],
             "settings": {
                 "foreground": "#dcdcff"
             }
@@ -436,10 +423,7 @@
         },
         {
             "name": "[CSS] - Entity",
-            "scope": [
-                "source.css entity",
-                "source.stylus entity"
-            ],
+            "scope": ["source.css entity", "source.stylus entity"],
             "settings": {
                 "foreground": "#42A1FF"
             }
@@ -460,22 +444,14 @@
         },
         {
             "name": "[CSS] - Support",
-            "scope": [
-                "source.css support",
-                "source.stylus support"
-            ],
+            "scope": ["source.css support", "source.stylus support"],
             "settings": {
                 "foreground": "#dcdcff"
             }
         },
         {
             "name": "[CSS] - Constant",
-            "scope": [
-                "source.css constant",
-                "source.css support.constant",
-                "source.stylus constant",
-                "source.stylus support.constant"
-            ],
+            "scope": ["source.css constant", "source.css support.constant", "source.stylus constant", "source.stylus support.constant"],
             "settings": {
                 "foreground": "#FF68B8",
                 "fontStyle": "italic"
@@ -483,22 +459,14 @@
         },
         {
             "name": "[CSS] - String",
-            "scope": [
-                "source.css string",
-                "source.css punctuation.definition.string",
-                "source.stylus string",
-                "source.stylus punctuation.definition.string"
-            ],
+            "scope": ["source.css string", "source.css punctuation.definition.string", "source.stylus string", "source.stylus punctuation.definition.string"],
             "settings": {
                 "foreground": "#FF68B8"
             }
         },
         {
             "name": "[CSS] - Variable",
-            "scope": [
-                "source.css variable",
-                "source.stylus variable"
-            ],
+            "scope": ["source.css variable", "source.stylus variable"],
             "settings": {
                 "foreground": "#FF68B8"
             }
@@ -590,10 +558,7 @@
         },
         {
             "name": "[JSON] - String",
-            "scope": [
-                "source.json string",
-                "source.json punctuation.definition.string"
-            ],
+            "scope": ["source.json string", "source.json punctuation.definition.string"],
             "settings": {
                 "foreground": "#e1efff"
             }
@@ -607,11 +572,7 @@
         },
         {
             "name": "[MARKDOWN] - Heading Name Section",
-            "scope": [
-                "entity.name.section.markdown",
-                "markup.heading.setext.1.markdown",
-                "markup.heading.setext.2.markdown"
-            ],
+            "scope": ["entity.name.section.markdown", "markup.heading.setext.1.markdown", "markup.heading.setext.2.markdown"],
             "settings": {
                 "foreground": "#42A1FF",
                 "fontStyle": "bold"
@@ -678,41 +639,28 @@
         },
         {
             "name": "[MARKDOWN] - Link/Image Title",
-            "scope": [
-                "string.other.link.title.markdown",
-                "string.other.link.description.markdown",
-                "string.other.link.description.title.markdown"
-            ],
+            "scope": ["string.other.link.title.markdown", "string.other.link.description.markdown", "string.other.link.description.title.markdown"],
             "settings": {
                 "foreground": "#FF68B8"
             }
         },
         {
             "name": "[MARKDOWN] - Link Address",
-            "scope": [
-                "markup.underline.link.markdown",
-                "markup.underline.link.image.markdown"
-            ],
+            "scope": ["markup.underline.link.markdown", "markup.underline.link.image.markdown"],
             "settings": {
                 "foreground": "#ccc"
             }
         },
         {
             "name": "[MARKDOWN] - Inline Code",
-            "scope": [
-                "fenced_code.block.language",
-                "markup.inline.raw.markdown"
-            ],
+            "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
             "settings": {
                 "foreground": "#ccc"
             }
         },
         {
             "name": "[MARKDOWN] - Code Block",
-            "scope": [
-                "fenced_code.block.language",
-                "markup.inline.raw.markdown"
-            ],
+            "scope": ["fenced_code.block.language", "markup.inline.raw.markdown"],
             "settings": {
                 "foreground": "#ccc"
             }
@@ -753,9 +701,7 @@
         },
         {
             "name": "Export Default",
-            "scope": [
-                "keyword.control.export"
-            ],
+            "scope": ["keyword.control.export"],
             "settings": {
                 "foreground": "#FF68B8",
                 "fontStyle": "italic"
@@ -763,13 +709,11 @@
         },
         {
             "name": "[TYPESCRIPT] Returned Type",
-            "scope": [
-                "meta.return.type.ts"
-            ],
+            "scope": ["meta.return.type.ts"],
             "settings": {
                 "foreground": "#FF68B8",
                 "fontStyle": "italic"
             }
-        },
+        }
     ]
 }

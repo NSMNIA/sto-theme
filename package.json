@@ -2,7 +2,7 @@
     "name": "sto-theme",
     "displayName": "Sto Theme",
     "description": "Dark theme",
-    "version": "0.0.51",
+    "version": "1.0.0",
     "publisher": "NSMNIA",
     "repository": {
         "type": "git",
@@ -28,7 +28,12 @@
             {
                 "label": "Sto Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Sto Theme-color-theme.json"
+                "path": "./themes/Sto-Theme-color-theme.json"
+            },
+            {
+                "label": "Sto Theme (Winter)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sto-Theme-winter-color-theme.json"
             }
         ]
     }

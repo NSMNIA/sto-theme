@@ -2,7 +2,7 @@
     "name": "sto-theme",
     "displayName": "Sto Theme",
     "description": "🔥 Official theme by NSMNIA.",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "publisher": "NSMNIA",
     "icon": "images/icon.png",
     "repository": {
@@ -54,6 +54,6 @@
     },
     "scripts": {
         "create-package": "vsce package",
-        "publisch": "vsce publish"
+        "publish": "vsce publish"
     }
 }

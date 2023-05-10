@@ -1,14 +1,18 @@
 {
     "name": "sto-theme",
     "displayName": "Sto Theme",
-    "description": "Dark theme",
-    "version": "1.0.0",
+    "description": "🔥 Official theme by NSMNIA.",
+    "version": "2.0.0",
     "publisher": "NSMNIA",
+    "icon": "images/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/NSMNIA/sto-theme"
     },
-    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#14a3ff",
+        "theme": "dark"
+    },
     "engines": {
         "vscode": "^1.71.0"
     },
@@ -18,7 +22,8 @@
         "sto",
         "NSMNIA",
         "theme",
-        "dark theme"
+        "dark theme",
+        "VSCode"
     ],
     "categories": [
         "Themes"
@@ -26,15 +31,29 @@
     "contributes": {
         "themes": [
             {
-                "label": "Sto Theme",
+                "label": "Sto Classic",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Sto-Theme-color-theme.json"
             },
             {
-                "label": "Sto Theme (Winter)",
+                "label": "Sto Green",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Sto-Theme-winter-color-theme.json"
+                "path": "./themes/Sto-Theme-green-color-theme.json"
+            },
+            {
+                "label": "Sto Classic Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sto-Theme-dark-color-theme.json"
+            },
+            {
+                "label": "Sto Green Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sto-Theme-green-dark-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "create-package": "vsce package",
+        "publisch": "vsce publish"
     }
 }

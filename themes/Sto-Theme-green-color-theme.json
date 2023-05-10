@@ -1,5 +1,5 @@
 {
-    "name": "Sto Theme (Winter)",
+    "name": "Sto Green",
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -80,9 +80,9 @@
         "editor.rangeHighlightBackground": "#ffffff05",
         // selected Text colours
         // This is the standard Select colour
-        "editor.selectionBackground": "#000",
+        "editor.selectionBackground": "#5faab160",
         // This is the colour of the other matching elements
-        "editor.selectionHighlightBackground": "#00000080",
+        "editor.selectionHighlightBackground": "#5faab160",
         // if you tab away you can colour it differently, but ill leave this one out
         // "editor.inactiveSelectionBackground": "",
         // Word Highlights! This happens when you move your cursor inside a variable
